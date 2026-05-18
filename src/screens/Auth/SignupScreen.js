@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, Alert } from 'react-native';
-import { Colors, Typography } from '../theme/theme';
+import { Colors, Typography } from '../../theme/theme';
 
 export default function SignupScreen({ navigation }) {
   const [email, setEmail] = useState('');
